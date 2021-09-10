@@ -4,7 +4,10 @@ import LogoutButton from '../auth/LogoutButton';
 
 const LandingPage = () => {
   return (
-    <div id='landing__container'>Welcome</div>
+    <div id='landing__container'>
+        <div id='landing__main'>Main Text</div>
+        <div id='landing__sub'>Sub Text</div>
+    </div>
   );
 }
 
