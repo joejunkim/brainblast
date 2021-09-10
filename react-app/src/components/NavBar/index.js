@@ -8,11 +8,9 @@ import './NavBar.css'
 const NavBar = () => {
   return (
     <nav id='navbar__container'>
-      <div id='navbar__logo'>BrainBlast</div>
-      <NavLink to='/' exact={true} activeClassName='active'>Home</NavLink>
+      <NavLink to='/' exact={true} activeClassName='active'>BrainBlast</NavLink>
       <NavLink to='/login' exact={true} activeClassName='active'>Login</NavLink>
       <NavLink to='/sign-up' exact={true} activeClassName='active'>Sign Up</NavLink>
-      <NavLink to='/users' exact={true} activeClassName='active'>Users</NavLink>
       <LogoutButton />
     </nav>
   );

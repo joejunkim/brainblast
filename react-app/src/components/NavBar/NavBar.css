@@ -3,14 +3,14 @@
     color: white;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    height: 10vh;
-}
-
-#navbar__container ul {
-    margin: 0;
+    height: 8vh;
+    font-size: 1.3rem;
 }
 
 #navbar__container a {
+    text-decoration: none;
     color: white;
 }
+
