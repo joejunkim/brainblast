@@ -1,0 +1,12 @@
+#navbar__container {
+    background-color: blue;
+    color: white;
+}
+
+#navbar__container ul {
+    margin: 0;
+}
+
+#navbar__container a {
+    color: white;
+}
